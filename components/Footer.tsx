@@ -29,14 +29,14 @@ export default function Footer() {
             </p>
 
             <h2 className="text-3xl md:text-5xl font-semibold leading-tight mb-6">
-              Transforme Seu Espaço Com {siteConfig.companyName}
+              Transform Your Space With {siteConfig.companyName}
             </h2>
 
             <Link
               href="/contact"
               className="inline-block bg-brand-primary text-white px-9 py-4 rounded-full font-semibold tracking-wide hover:bg-brand-accent transition duration-300 shadow-lg hover:shadow-xl"
             >
-              Solicite Seu Orçamento
+              Request Your Estimate
             </Link>
 
           </div>
@@ -59,12 +59,12 @@ export default function Footer() {
             />
 
             <p className="text-sm text-brand-white/80 leading-relaxed">
-              {siteConfig.niche} em {siteConfig.region}.
-              Empresa familiar. Focada em detalhes. Construída na confiança.
+              {siteConfig.niche} across {siteConfig.region}.
+              Family-owned. Detail-driven. Built on trust.
             </p>
 
             <p className="text-sm text-brand-accent font-medium">
-              Precisão • Integridade • Confiabilidade
+              Precision • Integrity • Reliability
             </p>
 
           </div>
@@ -72,22 +72,22 @@ export default function Footer() {
           {/* NAVIGATION */}
           <div>
             <h4 className="text-lg font-semibold mb-5 tracking-wide">
-              Navegação
+              Navigation
             </h4>
 
             <ul className="space-y-3 text-brand-white/80">
-              <li><Link href="/" className="hover:text-brand-accent transition">Início</Link></li>
-              <li><Link href="/services" className="hover:text-brand-accent transition">Serviços</Link></li>
-              <li><Link href="/portfolio" className="hover:text-brand-accent transition">Portfólio</Link></li>
-              <li><Link href="/about" className="hover:text-brand-accent transition">Sobre</Link></li>
-              <li><Link href="/contact" className="hover:text-brand-accent transition">Contato</Link></li>
+              <li><Link href="/" className="hover:text-brand-accent transition">Home</Link></li>
+              <li><Link href="/services" className="hover:text-brand-accent transition">Services</Link></li>
+              <li><Link href="/portfolio" className="hover:text-brand-accent transition">Portfolio</Link></li>
+              <li><Link href="/about" className="hover:text-brand-accent transition">About</Link></li>
+              <li><Link href="/contact" className="hover:text-brand-accent transition">Contact</Link></li>
             </ul>
           </div>
 
           {/* CONTACT */}
           <div>
             <h4 className="text-lg font-semibold mb-5 tracking-wide">
-              Contato
+              Contact
             </h4>
 
             <ul className="space-y-3 text-brand-white/80">

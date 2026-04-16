@@ -7,26 +7,26 @@
 
 export const siteConfig = {
   // Company Information
-  companyName: 'Kalil Services',
+  companyName: 'Kalil 7 Services',
   niche: 'Tile, Marble & Travertine Installation',
   tagline: 'Luxury Craftsmanship',
   
   // Contact Details
-  phone: '11 98765 4321',
-  phoneFormatted: '(11) 98765-4321',
-  whatsapp: '11987654321',
-  email: 'contato@kalilservices.com',
+  phone: '321 4425003',
+  phoneFormatted: '(321) 442-5003',
+  whatsapp: '3214425003',
+  email: 'kalil7services@gmail.com',
   
   // Location
-  city: 'São Paulo',
-  state: 'São Paulo',
-  region: 'Grande São Paulo',
+  city: 'Orlando',
+  state: 'Florida',
+  region: 'Central Florida',
   serviceAreas: [
-    'São Paulo',
-    'Guarulhos',
-    'Osasco',
-    'Santo André',
-    'São Caetano do Sul'
+    'Orlando',
+    'Lake Nona',
+    'Winter Park',
+    'Celebration',
+    'Greater Central Florida'
   ],
   
   // Brand Colors (Tailwind CSS variables)
@@ -34,8 +34,8 @@ export const siteConfig = {
   secondaryColor: 'brand-accent',
   
   // Hero Section
-  heroTitle: 'Premium Tile, Marble & Travertine Installation in São Paulo',
-  heroSubtitle: 'Luxury tile installation and bathroom remodeling in São Paulo. Trusted craftsmanship with over 20 years of experience.',
+  heroTitle: 'Premium Tile, Marble & Travertine Installation in Central Florida',
+  heroSubtitle: 'Luxury tile installation and bathroom remodeling in Central Florida. Trusted craftsmanship with over 20 years of experience.',
   
   // About Section
   yearsExperience: '20+',
@@ -43,16 +43,16 @@ export const siteConfig = {
   
   // Social Media
   instagram: {
-    handle: '@kalilservices',
-    url: 'https://www.instagram.com/kalilservices/'
+    handle: '@kalil7services',
+    url: 'https://www.instagram.com/kalil7services/'
   },
   
   // SEO
-  siteUrl: 'https://kalilservices.com',
+  siteUrl: 'https://kalil7services.com',
   defaultImage: '/images/hero/place_1.jpg',
   
   // Business Hours
-  businessHours: 'Seg–Sex 8h–18h • Sáb 9h–13h',
+  businessHours: 'Mon–Fri 8AM–6PM • Sat 9AM–4PM',
   
   // Core Services
   services: [

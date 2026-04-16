@@ -25,11 +25,11 @@ const portfolioPreview = [
 ]
 
 const differentiators = [
-  'Empresa familiar e focada em relacionamentos',
-  'Artesanato premium em cada detalhe',
-  'Preços transparentes e orçamentos escritos',
-  'Agendamento confiável com cronogramas claros',
-  'Padrões de instalação focados em detalhes',
+  'Family owned and relationship focused',
+  'Premium craftsmanship on every detail',
+  'Transparent pricing and written estimates',
+  'Reliable scheduling with clear timelines',
+  'Detail-focused installation standards',
 ]
 
 export default function Home() {

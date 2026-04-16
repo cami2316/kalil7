@@ -5,8 +5,8 @@ import Gallery from '@/components/Gallery'
 import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
-  title: `Portfólio - Projetos Concluídos de ${siteConfig.niche}`,
-  description: `Explore os projetos concluídos de ${siteConfig.companyName} em ${siteConfig.region}.`,
+  title: `Portfolio - Finished ${siteConfig.niche} Projects`,
+  description: `Explore ${siteConfig.companyName}'s completed installation projects across ${siteConfig.region}.`,
 }
 
 export default function Portfolio() {

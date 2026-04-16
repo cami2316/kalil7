@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
-  title: `Sobre ${siteConfig.companyName} - Especialistas em Instalação de Tile e Mármore`,
-  description: `Empresa especializada em ${siteConfig.niche} servindo ${siteConfig.region} com artesanato de precisão e serviço confiável.`,
+  title: `About ${siteConfig.companyName} - Expert Tile & Stone Installation`,
+  description: `Family-owned ${siteConfig.niche} company serving ${siteConfig.region} with precision craftsmanship and trusted service.`,
 }
 
 export default function About() {
@@ -28,16 +28,16 @@ export default function About() {
 
         <div className="relative container mx-auto px-4 max-w-3xl">
           <p className="uppercase tracking-[0.4em] text-brand-accent text-sm mb-5">
-            Nossa História
+            Our Story
           </p>
 
           <h1 className="text-4xl md:text-5xl font-semibold mb-6">
-            Construído com Artesanato. Crescido Através da Confiança.
+            Built on Craftsmanship. Grown Through Trust.
           </h1>
 
           <p className="text-lg text-white/90">
-            {siteConfig.companyName} é uma empresa especializada em instalação de revestimentos
-            dedicada a entregar transformações refinadas em {siteConfig.region}.
+            {siteConfig.companyName} is a family-owned stone installation company dedicated to
+            delivering refined transformations across {siteConfig.region}.
           </p>
         </div>
 
@@ -49,27 +49,27 @@ export default function About() {
 
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold text-brand-charcoal mb-6">
-                Mais Que Instalação. Construímos Confiança.
+                More Than Installation. We Build Confidence.
 
             <div className="space-y-5 text-brand-charcoal text-lg">
 
               <p>
-                Com mais de {siteConfig.yearsExperience} anos de experiência no mercado de instalação de revestimentos,
-                {siteConfig.companyName} se estabeleceu como referência em instalação de tile, mármore e travertino
-                em banheiros e cozinhas na região de {siteConfig.region}.
+                With over {siteConfig.yearsExperience} years of experience in the tile and stone installation industry,
+                {siteConfig.companyName} has established itself as a reference for tile, marble and travertine installation
+                in bathrooms and kitchens in the {siteConfig.region} area.
               </p>
 
               <p>
-                Nossa empresa, em operação há mais de 5 anos, foi construída com o compromisso de oferecer
-                trabalhos de alta qualidade e acabamento impecável. Cada projeto é executado com planejamento
-                detalhado, técnicas adequadas e padrões premium de finalização.
+                Our company, in operation for more than 5 years, is committed to delivering high-quality work and
+                impeccable finishes. Each project is approached with detailed planning, appropriate techniques,
+                and premium finish standards.
               </p>
 
               <p>
-                Entendemos que a reforma é um investimento pessoal. Por isso, focamos na comunicação clara,
-                agendamento preciso e respeito pelo seu lar desde a preparação até a entrega final.
-                Recentemente, estabelecemos uma parceria estratégica com a Biaggio Flooring para expandir
-                nossos serviços de instalação de tile em residências customizadas.
+                We understand that remodeling is a personal investment. That's why we focus on clear communication,
+                precise scheduling, and respect for your home from preparation to final delivery.
+                Recently, we established a strategic partnership with Biaggio Flooring to expand our services
+                for custom tile installation in homes.
               </p>
 
             </div>

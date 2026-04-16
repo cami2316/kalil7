@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
-  title: `Serviços - ${siteConfig.niche}`,
-  description: `Serviços profissionais de ${siteConfig.niche} em ${siteConfig.region}.`,
+  title: `Services - ${siteConfig.niche}`,
+  description: `Professional ${siteConfig.niche} in ${siteConfig.region}.`,
 }
 
 export default function Services() {
@@ -26,15 +26,15 @@ export default function Services() {
 
         <div className="relative container mx-auto px-4 max-w-3xl">
           <p className="uppercase tracking-[0.45em] text-brand-accent text-sm mb-5">
-            Nossos Serviços
+            Our Services
           </p>
 
           <h1 className="text-4xl md:text-5xl font-semibold mb-6">
-            Instalação de Precisão Projetada Para Seu Espaço
+            Precision Installation Designed Around Your Space
           </h1>
 
           <p className="text-lg text-white/90">
-            De instalações de tile a transformações completas de banheiros e cozinhas, entregamos artesanato premium com cronogramas confiáveis.
+            From tile installations to full bathroom transformations, we deliver premium craftsmanship with dependable timelines.
           </p>
         </div>
       </section>
@@ -45,24 +45,24 @@ export default function Services() {
 
           <div>
             <p className="uppercase tracking-[0.35em] text-brand-charcoal mb-4">
-              Instalação de Tile
+              Tile Installation
             </p>
 
             <h2 className="text-3xl font-semibold text-brand-charcoal mb-6">
-              Pisos Projetados para Durabilidade e Estilo
+              Floors Engineered for Durability & Style
             </h2>
 
             <p className="text-brand-charcoal mb-8">
-              Instalamos sistemas premium projetados para realçar a estética enquanto garantem performance de longo prazo em residências de {siteConfig.region}.
+              We install premium systems designed to enhance aesthetics while ensuring long-term performance in {siteConfig.region} homes.
             </p>
 
             <ul className="space-y-4">
               {[
-                'Instalação de Tile Cerâmico',
-                'Instalação de Tile Porcelanato',
-                'Tile para Banheiros',
-                'Tile para Cozinhas',
-                'Tile Decorativo',
+                'Ceramic Tile Installation',
+                'Porcelain Tile Installation',
+                'Bathroom Tile Installation',
+                'Kitchen Tile Installation',
+                'Decorative Tile Installation',
               ].map((item) => (
                 <li key={item} className="flex gap-3 text-brand-charcoal">
                   <span className="mt-2 h-2.5 w-2.5 rounded-full bg-brand-primary" />
@@ -99,24 +99,24 @@ export default function Services() {
 
           <div className="order-1 lg:order-2">
             <p className="uppercase tracking-[0.35em] text-brand-charcoal mb-4">
-              Instalação de Mármore
+              Marble Installation
             </p>
 
             <h2 className="text-3xl font-semibold text-brand-charcoal mb-6">
-              Banheiros de Luxo Projetados para o Dia a Dia
+              Luxury Bathrooms Designed for Everyday Living
             </h2>
 
             <p className="text-brand-charcoal mb-8">
-              Sistemas impermeáveis, alinhamento preciso de mármore e layouts modernos projetados para durabilidade e elegância.
+              Waterproofing systems, precise marble alignment, and modern layouts designed for durability and elegance.
             </p>
 
             <ul className="space-y-4">
               {[
-                'Bancadas de Mármore',
-                'Pisos de Mármore',
-                'Revestimentos de Parede',
-                'Chuveiros Personalizados',
-                'Instalações de Luxo',
+                'Marble Countertops',
+                'Marble Flooring',
+                'Wall Marble Installation',
+                'Custom Marble Showers',
+                'Luxury Marble Finishes',
               ].map((item) => (
                 <li key={item} className="flex gap-3 text-brand-charcoal">
                   <span className="mt-2 h-2.5 w-2.5 rounded-full bg-brand-primary" />
@@ -178,18 +178,18 @@ export default function Services() {
         <div className="container mx-auto px-4 max-w-2xl">
 
           <h2 className="text-3xl md:text-4xl font-semibold mb-6">
-            Pronto para Transformar Seu Espaço?
+            Ready to Transform Your Space?
           </h2>
 
           <p className="text-lg text-white/80 mb-10">
-            Agende uma consulta gratuita e receba um orçamento personalizado de instalação.
+            Schedule a free consultation and receive a personalized installation estimate.
           </p>
 
           <Link
             href="/contact"
             className="inline-block bg-brand-primary px-10 py-4 rounded-full font-semibold hover:bg-brand-accent transition shadow-lg"
           >
-            Solicitar Orçamento Gratuito
+            Request Free Estimate
           </Link>
 
         </div>

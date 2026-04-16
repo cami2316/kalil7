@@ -4,8 +4,8 @@ import ContactForm from '@/components/ContactForm'
 import { siteConfig } from '@/lib/siteConfig'
 
 export const metadata: Metadata = {
-  title: `Contato ${siteConfig.companyName} - Solicite Orçamento Gratuito`,
-  description: `Solicite um orçamento gratuito de ${siteConfig.niche} em ${siteConfig.region}. Consultoria profissional e planejamento claro do projeto.`,
+  title: `Contact ${siteConfig.companyName} - Request Free Estimate`,
+  description: `Request a free ${siteConfig.niche} estimate in ${siteConfig.region}. Professional consultation and clear project planning.`,
 }
 
 export default function Contact() {
@@ -27,15 +27,15 @@ export default function Contact() {
 
         <div className="relative container mx-auto px-4 max-w-3xl">
           <p className="uppercase tracking-[0.45em] text-brand-accent text-sm mb-5">
-            Contato
+            Contact
           </p>
 
           <h1 className="text-4xl md:text-5xl font-semibold mb-6">
-            Solicite Seu Orçamento Gratuito de Instalação
+            Request Your Free Installation Estimate
           </h1>
 
           <p className="text-lg text-white/90">
-            Conte-nos sobre seu projeto. Nossa equipe irá revisar sua solicitação e guiá-lo pelos próximos passos com clareza e transparência.
+            Tell us about your project. Our team will review your request and guide you through next steps with clarity and transparency.
           </p>
         </div>
 
@@ -52,12 +52,12 @@ export default function Contact() {
             {/* INTRO */}
             <div>
               <h2 className="text-3xl font-semibold text-brand-charcoal mb-4">
-                Fale com Nossa Equipe de Instalação
+                Speak With Our Installation Team
               </h2>
 
               <p className="text-brand-charcoal text-lg">
-                Respondemos em até um dia útil com detalhes da consultoria,
-                recomendações do projeto e disponibilidade de agendamento.
+                We respond within one business day with consultation details,
+                project recommendations, and scheduling availability.
               </p>
             </div>
 
