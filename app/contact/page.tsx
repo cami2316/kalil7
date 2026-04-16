@@ -76,7 +76,24 @@ export default function Contact() {
                   {siteConfig.phoneFormatted}
                 </a>
 
-                <p className="text-sm text-brand-charcoal/70">
+                <div className="flex gap-3 mt-3">
+                  <a
+                    href={`https://wa.me/1${siteConfig.whatsapp}?text=Hello%20Kalil%207%20Services%2C%20I%27d%20like%20to%20request%20an%20estimate`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-block px-4 py-2 bg-green-500 text-white rounded-lg text-sm font-semibold hover:bg-green-600 transition"
+                  >
+                    WhatsApp
+                  </a>
+                  <a
+                    href={`sms:+1${siteConfig.phone}?body=Hello%20Kalil%207%20Services%2C%20I%27d%20like%20to%20request%20an%20estimate`}
+                    className="inline-block px-4 py-2 bg-blue-500 text-white rounded-lg text-sm font-semibold hover:bg-blue-600 transition"
+                  >
+                    SMS
+                  </a>
+                </div>
+
+                <p className="text-sm text-brand-charcoal/70 mt-2">
                   {siteConfig.businessHours}
                 </p>
               </div>

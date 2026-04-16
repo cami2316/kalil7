@@ -40,7 +40,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="relative flex items-center">
           <Image
-            src="/logo/logo%20white.svg"
+            src="/icone-transparente.png"
             alt={siteConfig.companyName}
             width={isScrolled ? 140 : 160}
             height={50}
