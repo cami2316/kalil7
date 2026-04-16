@@ -11,7 +11,7 @@ export default function Footer() {
 
         <div className="relative h-[420px] overflow-hidden">
           <Image
-            src="/images/portfolio/floor1.jpg"
+            src="/images/portfolio/fireplace1.jpeg"
             alt="Luxury installation"
             fill
             className="object-cover scale-105"
@@ -79,6 +79,7 @@ export default function Footer() {
               <li><Link href="/" className="hover:text-brand-accent transition">Home</Link></li>
               <li><Link href="/services" className="hover:text-brand-accent transition">Services</Link></li>
               <li><Link href="/portfolio" className="hover:text-brand-accent transition">Portfolio</Link></li>
+              <li><Link href="/before-after" className="hover:text-brand-accent transition">Before / After</Link></li>
               <li><Link href="/about" className="hover:text-brand-accent transition">About</Link></li>
               <li><Link href="/contact" className="hover:text-brand-accent transition">Contact</Link></li>
             </ul>
@@ -93,8 +94,8 @@ export default function Footer() {
             <ul className="space-y-3 text-brand-white/80">
               <li>{siteConfig.region}</li>
               <li>
-                <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="hover:text-brand-accent transition">
-                  {siteConfig.phone}
+                <a href={`tel:${siteConfig.phone}`} className="hover:text-brand-accent transition">
+                  {siteConfig.phoneFormatted}
                 </a>
               </li>
               <li>

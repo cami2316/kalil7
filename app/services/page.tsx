@@ -16,7 +16,7 @@ export default function Services() {
 
         <div className="absolute inset-0">
           <Image
-            src="/images/hero/place_1.jpg"
+            src="/images/hero/heroe.jpeg"
             alt="Luxury remodeling services"
             fill
             className="object-cover scale-105"
@@ -74,7 +74,7 @@ export default function Services() {
 
           <div className="relative h-[440px] rounded-[36px] overflow-hidden shadow-premium">
             <Image
-              src="/images/services/floor1.jpg"
+              src="/images/services/floor.jpeg"
               alt="Premium installation"
               fill
               className="object-cover"
@@ -90,7 +90,7 @@ export default function Services() {
 
           <div className="relative h-[440px] rounded-[36px] overflow-hidden shadow-premium order-2 lg:order-1">
             <Image
-              src="/images/services/bath.jpg"
+              src="/images/services/bath 05.jpeg"
               alt="Bathroom remodeling"
               fill
               className="object-cover"
@@ -163,7 +163,7 @@ export default function Services() {
 
           <div className="relative h-[440px] rounded-[36px] overflow-hidden shadow-premium">
             <Image
-              src="/images/services/bath04.jpg"
+              src="/images/services/fireplace02.jpeg"
               alt="Decorative installation"
               fill
               className="object-cover"

@@ -16,71 +16,57 @@ export default function Portfolio() {
       id: 1,
       title: 'Warm Living Space',
       category: 'Services' as const,
-      imageSrc: '/images/services/floor1.jpg',
+      imageSrc: '/images/services/floor.jpeg',
       alt: 'Premium installation',
     },
     {
       id: 2,
-      title: 'Contemporary Installation',
+      title: 'Luxury Bathroom Finish',
       category: 'Services' as const,
-      imageSrc: '/images/services/floor 2.jpg',
-      alt: 'Luxury installation',
+      imageSrc: '/images/services/bath 05.jpeg',
+      alt: 'Luxury bathroom remodel',
     },
     {
       id: 3,
-      title: 'Statement Details',
+      title: 'Elegant Fireplace Detail',
       category: 'Services' as const,
-      imageSrc: '/images/services/floor 03.jpg',
+      imageSrc: '/images/services/fireplace02.jpeg',
       alt: 'Decorative finish',
     },
     {
       id: 4,
-      title: 'Custom Installation',
+      title: 'Refined Bath Design',
       category: 'Services' as const,
-      imageSrc: '/images/services/bath.jpg',
+      imageSrc: '/images/portfolio/bath01.jpeg',
       alt: 'Luxury remodel',
     },
     {
       id: 5,
-      title: 'Spa Inspired Design',
-      category: 'Services' as const,
-      imageSrc: '/images/services/bath2.jpg',
+      title: 'Modern Shower Space',
+      category: 'Portfolio' as const,
+      imageSrc: '/images/portfolio/bath 02.jpeg',
       alt: 'Premium finishes',
     },
     {
       id: 6,
-      title: 'Modern Statement Wall',
-      category: 'Services' as const,
-      imageSrc: '/images/services/bath03.jpg',
+      title: 'Feature Wall Installation',
+      category: 'Portfolio' as const,
+      imageSrc: '/images/portfolio/bath 03.jpeg',
       alt: 'Wall installation',
     },
     {
       id: 7,
-      title: 'Luxury Detail Work',
-      category: 'Services' as const,
-      imageSrc: '/images/services/bath04.jpg',
+      title: 'Contemporary Remodel',
+      category: 'Portfolio' as const,
+      imageSrc: '/images/portfolio/bath 06.jpeg',
       alt: 'Custom details',
     },
     {
       id: 8,
-      title: 'Completed Project',
+      title: 'Custom Fireplace Project',
       category: 'Portfolio' as const,
-      imageSrc: '/images/portfolio/floor1.jpg',
+      imageSrc: '/images/portfolio/fireplace1.jpeg',
       alt: 'Finished project',
-    },
-    {
-      id: 9,
-      title: 'Finished Remodel',
-      category: 'Portfolio' as const,
-      imageSrc: '/images/portfolio/bath.jpg',
-      alt: 'Completed remodel',
-    },
-    {
-      id: 10,
-      title: 'Custom Installation Project',
-      category: 'Portfolio' as const,
-      imageSrc: '/images/portfolio/bath04.jpg',
-      alt: 'Custom project',
     },
   ]
 
@@ -91,7 +77,7 @@ export default function Portfolio() {
 
         <div className="absolute inset-0">
           <Image
-            src="/images/portfolio/bath04.jpg"
+            src="/images/portfolio/bath 06.jpeg"
             alt="Luxury remodeling portfolio"
             fill
             className="object-cover scale-105"

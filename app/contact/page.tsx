@@ -16,7 +16,7 @@ export default function Contact() {
 
         <div className="absolute inset-0">
           <Image
-            src="/images/portfolio/bath04.jpg"
+            src="/images/portfolio/fireplace1.jpeg"
             alt="Luxury remodeling consultation"
             fill
             className="object-cover scale-105"
@@ -70,10 +70,10 @@ export default function Contact() {
                 </p>
 
                 <a
-                  href={`tel:${siteConfig.phone.replace(/\s/g, '')}`}
+                  href={`tel:${siteConfig.phone}`}
                   className="text-xl font-semibold text-brand-charcoal hover:text-brand-accent transition"
                 >
-                  {siteConfig.phone}
+                  {siteConfig.phoneFormatted}
                 </a>
 
                 <p className="text-sm text-brand-charcoal/70">
@@ -91,6 +91,21 @@ export default function Contact() {
                   className="text-xl font-semibold text-brand-charcoal hover:text-brand-accent transition"
                 >
                   {siteConfig.email}
+                </a>
+              </div>
+
+              <div>
+                <p className="uppercase tracking-widest text-sm text-brand-charcoal/70">
+                  Instagram
+                </p>
+
+                <a
+                  href={siteConfig.instagram.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl font-semibold text-brand-charcoal hover:text-brand-accent transition"
+                >
+                  {siteConfig.instagram.handle}
                 </a>
               </div>
 
@@ -141,7 +156,7 @@ export default function Contact() {
             {/* IMAGE */}
             <div className="relative h-64 rounded-3xl overflow-hidden shadow-xl">
               <Image
-                src="/images/services/floor 03.jpg"
+                src="/images/services/floor.jpeg"
                 alt="Premium installation"
                 fill
                 className="object-cover"

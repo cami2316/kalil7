@@ -12,9 +12,9 @@ export const siteConfig = {
   tagline: 'Luxury Craftsmanship',
   
   // Contact Details
-  phone: '321 4425003',
-  phoneFormatted: '(321) 442-5003',
-  whatsapp: '3214425003',
+  phone: '3216821090',
+  phoneFormatted: '(321) 682-1090',
+  whatsapp: '3216821090',
   email: 'kalil7services@gmail.com',
   
   // Location
@@ -49,7 +49,7 @@ export const siteConfig = {
   
   // SEO
   siteUrl: 'https://kalil7services.com',
-  defaultImage: '/images/hero/place_1.jpg',
+  defaultImage: '/images/hero/heroe.jpeg',
   
   // Business Hours
   businessHours: 'Mon–Fri 8AM–6PM • Sat 9AM–4PM',
@@ -58,20 +58,20 @@ export const siteConfig = {
   services: [
     {
       title: 'Tile Installation',
-      description: 'Professional tile installation for bathrooms and kitchens with precision and long-lasting performance.',
-      image: '/images/services/tile1.jpg',
-      alt: 'Premium tile installation',
+      description: 'Precision tile installation for bathrooms, kitchens, and custom feature walls that stand up to daily wear.',
+      image: '/images/services/floor.jpeg',
+      alt: 'Professional tile installation',
     },
     {
       title: 'Marble Installation',
-      description: 'Luxury marble installation for countertops, floors, and feature walls with expert craftsmanship.',
-      image: '/images/services/marble.jpg',
+      description: 'Luxury marble installation for countertops, shower surrounds, and flooring with meticulous edge work.',
+      image: '/images/services/bath 05.jpeg',
       alt: 'Marble installation with premium finish',
     },
     {
       title: 'Travertine Installation',
-      description: 'Elegant travertine installation for bathrooms and kitchens, bringing natural beauty to your space.',
-      image: '/images/services/travertine.jpg',
+      description: 'Elegant travertine installation for bathrooms and kitchens, delivering natural warmth and durable results.',
+      image: '/images/services/fireplace02.jpeg',
       alt: 'Travertine installation with natural texture',
     }
   ],

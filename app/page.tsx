@@ -12,15 +12,15 @@ export const metadata: Metadata = {
 const portfolioPreview = [
   {
     title: 'Luxury Detail',
-    image: '/images/portfolio/bath04.jpg',
+    image: '/images/portfolio/bath01.jpeg',
   },
   {
     title: 'Warm Premium Finish',
-    image: '/images/portfolio/floor1.jpg',
+    image: '/images/portfolio/fireplace1.jpeg',
   },
   {
     title: 'Accent Feature',
-    image: '/images/portfolio/bath03.jpg',
+    image: '/images/portfolio/bath 03.jpeg',
   },
 ]
 
@@ -40,7 +40,7 @@ export default function Home() {
 
         <div className="absolute inset-0">
           <Image
-            src="/images/hero/place_1.jpg"
+            src="/images/hero/heroe.jpeg"
             alt={`Luxury home interior with premium ${siteConfig.niche}`}
             fill
             priority
@@ -90,7 +90,7 @@ export default function Home() {
 
       {/* SPLASH */}
       <SplashSection
-        imageSrc="/images/services/bath2.jpg"
+        imageSrc="/images/services/bath 05.jpeg"
         eyebrow="Luxury Remodeling"
         heading={`Trusted by ${siteConfig.region} Homeowners`}
         body="We deliver refined finishes, clean installs, and a streamlined process that respects your home and timeline."
@@ -180,7 +180,7 @@ export default function Home() {
 
       {/* SPLASH */}
       <SplashSection
-        imageSrc="/images/services/floor 2.jpg"
+        imageSrc="/images/services/floor.jpeg"
         eyebrow="Crafted Excellence"
         heading="Precision Installation. Refined Finishes."
         body="We deliver installations that define the space and elevate everyday living."
@@ -249,7 +249,7 @@ export default function Home() {
 
       {/* FINAL SPLASH */}
       <SplashSection
-        imageSrc="/images/portfolio/bath04.jpg"
+        imageSrc="/images/portfolio/bath 06.jpeg"
         eyebrow="Precision Remodeling"
         heading={`Elevate Your Home with ${siteConfig.companyName}`}
         body="Schedule a complimentary consultation and receive a detailed estimate tailored to your space."
@@ -286,7 +286,7 @@ export default function Home() {
 
           <div className="relative h-[420px] rounded-[36px] overflow-hidden shadow-xl">
             <Image
-              src="/images/services/bath03.jpg"
+              src="/images/portfolio/bath 02.jpeg"
               alt="Luxury shower with precision tile work"
               fill
               className="object-cover"

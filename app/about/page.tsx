@@ -16,7 +16,7 @@ export default function About() {
 
         <div className="absolute inset-0">
           <Image
-            src="/images/services/bath2.jpg"
+            src="/images/portfolio/bath 02.jpeg"
             alt="Installation craftsmanship"
             fill
             priority
@@ -49,20 +49,20 @@ export default function About() {
 
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold text-brand-charcoal mb-6">
-                More Than Installation. We Build Confidence.
+              More Than Installation. We Build Confidence.
+            </h2>
 
             <div className="space-y-5 text-brand-charcoal text-lg">
 
               <p>
                 With over {siteConfig.yearsExperience} years of experience in the tile and stone installation industry,
-                {siteConfig.companyName} has established itself as a reference for tile, marble and travertine installation
-                in bathrooms and kitchens in the {siteConfig.region} area.
+                {siteConfig.companyName} has established itself as a trusted partner for tile, marble and travertine projects
+                across bathrooms, kitchens, and high-end living spaces.
               </p>
 
               <p>
-                Our company, in operation for more than 5 years, is committed to delivering high-quality work and
-                impeccable finishes. Each project is approached with detailed planning, appropriate techniques,
-                and premium finish standards.
+                Every project is executed with detailed planning, expert installation techniques, and premium finish standards.
+                We focus on clear communication, reliable timelines, and respect for your home from preparation through completion.
               </p>
 
               <p>
@@ -78,7 +78,7 @@ export default function About() {
 
           <div className="relative h-[440px] rounded-[36px] overflow-hidden shadow-xl">
             <Image
-              src="/images/services/floor 2.jpg"
+              src="/images/portfolio/bath01.jpeg"
               alt="Premium installation"
               fill
               className="object-cover"
