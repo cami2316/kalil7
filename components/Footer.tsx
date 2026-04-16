@@ -1,0 +1,150 @@
+import Image from 'next/image'
+import Link from 'next/link'
+import { siteConfig } from '@/lib/siteConfig'
+
+export default function Footer() {
+  return (
+    <footer className="bg-brand-charcoal text-brand-white">
+
+      {/* CTA IMAGE SECTION */}
+      <div className="relative">
+
+        <div className="relative h-[420px] overflow-hidden">
+          <Image
+            src="/images/portfolio/floor1.jpg"
+            alt="Luxury installation"
+            fill
+            className="object-cover scale-105"
+            sizes="100vw"
+          />
+
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-charcoal/95 via-brand-charcoal/80 to-brand-charcoal/95" />
+        </div>
+
+        <div className="absolute inset-0 flex items-center justify-center text-center">
+          <div className="max-w-2xl px-6">
+
+            <p className="uppercase tracking-[0.4em] text-brand-accent text-sm mb-4">
+              {siteConfig.tagline}
+            </p>
+
+            <h2 className="text-3xl md:text-5xl font-semibold leading-tight mb-6">
+              Transforme Seu Espaço Com {siteConfig.companyName}
+            </h2>
+
+            <Link
+              href="/contact"
+              className="inline-block bg-brand-primary text-white px-9 py-4 rounded-full font-semibold tracking-wide hover:bg-brand-accent transition duration-300 shadow-lg hover:shadow-xl"
+            >
+              Solicite Seu Orçamento
+            </Link>
+
+          </div>
+        </div>
+      </div>
+
+      {/* MAIN FOOTER */}
+      <div className="container mx-auto px-6 py-16">
+
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+
+          {/* BRAND */}
+          <div className="space-y-5">
+
+            <Image
+              src="/logo/logo%20white.svg"
+              alt={siteConfig.companyName}
+              width={180}
+              height={50}
+            />
+
+            <p className="text-sm text-brand-white/80 leading-relaxed">
+              {siteConfig.niche} em {siteConfig.region}.
+              Empresa familiar. Focada em detalhes. Construída na confiança.
+            </p>
+
+            <p className="text-sm text-brand-accent font-medium">
+              Precisão • Integridade • Confiabilidade
+            </p>
+
+          </div>
+
+          {/* NAVIGATION */}
+          <div>
+            <h4 className="text-lg font-semibold mb-5 tracking-wide">
+              Navegação
+            </h4>
+
+            <ul className="space-y-3 text-brand-white/80">
+              <li><Link href="/" className="hover:text-brand-accent transition">Início</Link></li>
+              <li><Link href="/services" className="hover:text-brand-accent transition">Serviços</Link></li>
+              <li><Link href="/portfolio" className="hover:text-brand-accent transition">Portfólio</Link></li>
+              <li><Link href="/about" className="hover:text-brand-accent transition">Sobre</Link></li>
+              <li><Link href="/contact" className="hover:text-brand-accent transition">Contato</Link></li>
+            </ul>
+          </div>
+
+          {/* CONTACT */}
+          <div>
+            <h4 className="text-lg font-semibold mb-5 tracking-wide">
+              Contato
+            </h4>
+
+            <ul className="space-y-3 text-brand-white/80">
+              <li>{siteConfig.region}</li>
+              <li>
+                <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="hover:text-brand-accent transition">
+                  {siteConfig.phone}
+                </a>
+              </li>
+              <li>
+                <a href={`mailto:${siteConfig.email}`} className="hover:text-brand-accent transition">
+                  {siteConfig.email}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={siteConfig.instagram.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-brand-accent transition"
+                >
+                  Instagram: {siteConfig.instagram.handle}
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* SERVICE AREAS */}
+          <div>
+            <h4 className="text-lg font-semibold mb-5 tracking-wide">
+              Service Areas
+            </h4>
+
+            <ul className="space-y-3 text-brand-white/80">
+              {siteConfig.serviceAreas.map((area) => (
+                <li key={area}>{area}</li>
+              ))}
+            </ul>
+          </div>
+
+        </div>
+
+        {/* DIVIDER */}
+        <div className="border-t border-brand-white/20 mt-14 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-brand-white/60">
+
+          <p>
+            © {new Date().getFullYear()} {siteConfig.companyName}. All rights reserved.
+          </p>
+
+          <p>
+            Crafted with precision in {siteConfig.region}
+          </p>
+
+        </div>
+
+      </div>
+
+    </footer>
+  )
+}
