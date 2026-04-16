@@ -20,7 +20,7 @@ const portfolioPreview = [
   },
   {
     title: 'Accent Feature',
-    image: '/images/portfolio/bath 03.jpeg',
+    image: '/images/portfolio/bath-03.jpeg',
   },
 ]
 
@@ -90,7 +90,7 @@ export default function Home() {
 
       {/* SPLASH */}
       <SplashSection
-        imageSrc="/images/services/bath 05.jpeg"
+        imageSrc="/images/services/bath-05.jpeg"
         eyebrow="Luxury Remodeling"
         heading={`Trusted by ${siteConfig.region} Homeowners`}
         body="We deliver refined finishes, clean installs, and a streamlined process that respects your home and timeline."
@@ -249,7 +249,7 @@ export default function Home() {
 
       {/* FINAL SPLASH */}
       <SplashSection
-        imageSrc="/images/portfolio/bath 06.jpeg"
+        imageSrc="/images/portfolio/bath-06.jpeg"
         eyebrow="Precision Remodeling"
         heading={`Elevate Your Home with ${siteConfig.companyName}`}
         body="Schedule a complimentary consultation and receive a detailed estimate tailored to your space."
@@ -286,7 +286,7 @@ export default function Home() {
 
           <div className="relative h-[420px] rounded-[36px] overflow-hidden shadow-xl">
             <Image
-              src="/images/portfolio/bath 02.jpeg"
+              src="/images/portfolio/bath-02.jpeg"
               alt="Luxury shower with precision tile work"
               fill
               className="object-cover"

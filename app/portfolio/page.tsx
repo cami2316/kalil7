@@ -23,7 +23,7 @@ export default function Portfolio() {
       id: 2,
       title: 'Luxury Bathroom Finish',
       category: 'Services' as const,
-      imageSrc: '/images/services/bath 05.jpeg',
+      imageSrc: '/images/services/bath-05.jpeg',
       alt: 'Luxury bathroom remodel',
     },
     {
@@ -44,21 +44,21 @@ export default function Portfolio() {
       id: 5,
       title: 'Modern Shower Space',
       category: 'Portfolio' as const,
-      imageSrc: '/images/portfolio/bath 02.jpeg',
+      imageSrc: '/images/portfolio/bath-02.jpeg',
       alt: 'Premium finishes',
     },
     {
       id: 6,
       title: 'Feature Wall Installation',
       category: 'Portfolio' as const,
-      imageSrc: '/images/portfolio/bath 03.jpeg',
+      imageSrc: '/images/portfolio/bath-03.jpeg',
       alt: 'Wall installation',
     },
     {
       id: 7,
       title: 'Contemporary Remodel',
       category: 'Portfolio' as const,
-      imageSrc: '/images/portfolio/bath 06.jpeg',
+      imageSrc: '/images/portfolio/bath-06.jpeg',
       alt: 'Custom details',
     },
     {
@@ -77,7 +77,7 @@ export default function Portfolio() {
 
         <div className="absolute inset-0">
           <Image
-            src="/images/portfolio/bath 06.jpeg"
+            src="/images/portfolio/bath-06.jpeg"
             alt="Luxury remodeling portfolio"
             fill
             className="object-cover scale-105"

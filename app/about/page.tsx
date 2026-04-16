@@ -16,7 +16,7 @@ export default function About() {
 
         <div className="absolute inset-0">
           <Image
-            src="/images/portfolio/bath 02.jpeg"
+            src="/images/portfolio/bath-02.jpeg"
             alt="Installation craftsmanship"
             fill
             priority

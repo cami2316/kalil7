@@ -57,20 +57,20 @@ export const siteConfig = {
   // Core Services
   services: [
     {
-      title: 'Tile Installation',
-      description: 'Precision tile installation for bathrooms, kitchens, and custom feature walls that stand up to daily wear.',
+      title: 'Quality Craftsmanship',
+      description: 'Our installations combine careful layout, premium materials, and exacting workmanship for lasting results.',
       image: '/images/services/floor.jpeg',
       alt: 'Professional tile installation',
     },
     {
-      title: 'Marble Installation',
-      description: 'Luxury marble installation for countertops, shower surrounds, and flooring with meticulous edge work.',
-      image: '/images/services/bath 05.jpeg',
+      title: 'Precision Finishes',
+      description: 'Every edge, joint, and transition is finished with precision to create a seamless, luxury look.',
+      image: '/images/services/bath-05.jpeg',
       alt: 'Marble installation with premium finish',
     },
     {
-      title: 'Travertine Installation',
-      description: 'Elegant travertine installation for bathrooms and kitchens, delivering natural warmth and durable results.',
+      title: 'Reliable On Time',
+      description: 'Our team delivers projects on schedule with dependable communication and clean, organized job sites.',
       image: '/images/services/fireplace02.jpeg',
       alt: 'Travertine installation with natural texture',
     }

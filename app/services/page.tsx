@@ -45,7 +45,7 @@ export default function Services() {
 
           <div>
             <p className="uppercase tracking-[0.35em] text-brand-charcoal mb-4">
-              Tile Installation
+              Quality Craftsmanship
             </p>
 
             <h2 className="text-3xl font-semibold text-brand-charcoal mb-6">
@@ -53,7 +53,7 @@ export default function Services() {
             </h2>
 
             <p className="text-brand-charcoal mb-8">
-              We install premium systems designed to enhance aesthetics while ensuring long-term performance in {siteConfig.region} homes.
+              We craft every tile layout with focus on alignment, stability, and long-term performance in {siteConfig.region} homes.
             </p>
 
             <ul className="space-y-4">
@@ -90,7 +90,7 @@ export default function Services() {
 
           <div className="relative h-[440px] rounded-[36px] overflow-hidden shadow-premium order-2 lg:order-1">
             <Image
-              src="/images/services/bath 05.jpeg"
+              src="/images/services/bath-05.jpeg"
               alt="Bathroom remodeling"
               fill
               className="object-cover"
@@ -99,7 +99,7 @@ export default function Services() {
 
           <div className="order-1 lg:order-2">
             <p className="uppercase tracking-[0.35em] text-brand-charcoal mb-4">
-              Marble Installation
+              Precision Finishes
             </p>
 
             <h2 className="text-3xl font-semibold text-brand-charcoal mb-6">
@@ -107,7 +107,7 @@ export default function Services() {
             </h2>
 
             <p className="text-brand-charcoal mb-8">
-              Waterproofing systems, precise marble alignment, and modern layouts designed for durability and elegance.
+              Every surface is finished with exacting detail, from grout joints to polished marble edges, for a refined final result.
             </p>
 
             <ul className="space-y-4">
@@ -135,7 +135,7 @@ export default function Services() {
 
           <div>
             <p className="uppercase tracking-[0.35em] text-brand-charcoal mb-4">
-              Custom Tile & Decorative Work
+              Reliable On Time
             </p>
 
             <h2 className="text-3xl font-semibold text-brand-charcoal mb-6">
@@ -143,7 +143,7 @@ export default function Services() {
             </h2>
 
             <p className="text-brand-charcoal mb-8">
-              From artistic backsplashes to custom entry medallions, our decorative tile installations deliver refined finishes.
+              We complete high-quality installations on schedule, maintaining site cleanliness and clear communication throughout the process.
             </p>
 
             <ul className="space-y-4">
