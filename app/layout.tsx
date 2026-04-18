@@ -4,6 +4,7 @@ import './globals.css'
 
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Providers from '@/components/Providers'
 import { siteConfig } from '@/lib/siteConfig'
 
 const displayFont = Montserrat({
@@ -75,7 +76,9 @@ export default function RootLayout({
 
         {/* PAGE CONTENT */}
         <main className="min-h-screen flex flex-col">
-          {children}
+          <Providers>
+            {children}
+          </Providers>
         </main>
 
         {/* FOOTER */}

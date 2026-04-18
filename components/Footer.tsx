@@ -142,6 +142,10 @@ export default function Footer() {
             Crafted with precision in {siteConfig.region}
           </p>
 
+          <Link href="/partners/login" className="text-brand-white/20 hover:text-brand-white/50 transition text-xs">
+            Partners
+          </Link>
+
         </div>
 
       </div>
