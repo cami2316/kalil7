@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server'
 import { getServerSession } from 'next-auth/next'
-import { Prisma } from '@prisma/client'
 import { authOptions } from '@/app/api/auth/[...nextauth]/route'
 import { prisma } from '@/lib/prisma'
 import jsPDF from 'jspdf'
@@ -148,7 +147,7 @@ export async function POST(request: Request) {
 
     const description = normalizedItems.map((item) => item.description).join(' | ')
 
-    const createdInvoice = await prisma.$transaction(async (tx: Prisma.TransactionClient) => {
+    const createdInvoice = await prisma.$transaction(async (tx: any) => {
       const invoice = await tx.invoice.create({
         data: {
           userId,
