@@ -4,6 +4,10 @@ import { useState } from 'react'
 import { signIn } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 
+function normalizePhone(value: string): string {
+  return value.replace(/\D/g, '')
+}
+
 export default function LoginPage() {
   const [phone, setPhone] = useState('')
   const [password, setPassword] = useState('')
@@ -14,9 +18,11 @@ export default function LoginPage() {
     e.preventDefault()
     setError('')
 
+    const normalizedPhone = normalizePhone(phone)
+
     const result = await signIn('credentials', {
-      phone,
-      password,
+      phone: normalizedPhone,
+      password: password.trim(),
       redirect: false,
     })
 

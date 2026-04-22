@@ -4,6 +4,10 @@ import { JWT } from 'next-auth/jwt'
 import { prisma } from '@/lib/prisma'
 import bcrypt from 'bcryptjs'
 
+function normalizePhone(value: string): string {
+  return value.replace(/\D/g, '')
+}
+
 export const authOptions = {
   providers: [
     CredentialsProvider({
@@ -17,15 +21,18 @@ export const authOptions = {
           return null
         }
 
+        const normalizedPhone = normalizePhone(credentials.phone)
+        const password = credentials.password.trim()
+
         const user = await prisma.user.findUnique({
-          where: { phone: credentials.phone },
+          where: { phone: normalizedPhone },
         })
 
         if (!user) {
           return null
         }
 
-        const isPasswordValid = await bcrypt.compare(credentials.password, user.password)
+        const isPasswordValid = await bcrypt.compare(password, user.password)
 
         if (!isPasswordValid) {
           return null
