@@ -75,6 +75,24 @@ export default function Header() {
 
           {/* CTA */}
           <Link
+            href="/partners/login"
+            className="
+              ml-2
+              border border-white/50
+              text-white
+              px-4 py-2
+              rounded-full
+              text-sm
+              font-semibold
+              tracking-wide
+              hover:bg-white/10
+              transition-all
+            "
+          >
+            Partner Portal
+          </Link>
+
+          <Link
             href="/contact"
             className="
               ml-4
@@ -129,6 +147,16 @@ export default function Header() {
               </Link>
             </li>
           ))}
+
+          <li>
+            <Link
+              href="/partners/login"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-brand-accent text-lg font-semibold hover:text-white transition"
+            >
+              Partner Portal
+            </Link>
+          </li>
 
           <Link
             href="/contact"
