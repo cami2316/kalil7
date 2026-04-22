@@ -6,9 +6,17 @@ const globalForPrisma = globalThis as unknown as { prisma: PrismaClient }
 
 const connectionString = process.env.DATABASE_URL
 
-// NOTE: Currently, the adapter does not support connection pooling
-// So we use a single connection
-const pool = new Pool({ connectionString })
+const isProduction = process.env.NODE_ENV === 'production'
+
+// Use a small, stable pool for serverless and force TLS in production.
+const pool = new Pool({
+  connectionString,
+  ssl: isProduction ? { rejectUnauthorized: false } : undefined,
+  max: 5,
+  idleTimeoutMillis: 30000,
+  connectionTimeoutMillis: 10000,
+  keepAlive: true,
+})
 const adapter = new PrismaPg(pool)
 
 export const prisma =
